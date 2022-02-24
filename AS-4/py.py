@@ -1,10 +1,10 @@
-def Tower_Of_Hanoi(n , Starting, Targeted, Assistant):
+def TowerOfHanoi (n, Starting, Targeted, Assistant):
     if n==1:
         print ("Move disk 1 from {0} rod to {1} rod".format(Starting,Targeted))
         return
-    Tower_Of_Hanoi(n-1, Starting, Assistant, Targeted)
+    TowerOfHanoi(n - 1, Starting, Assistant, Targeted)
     print ("Move disk {0} from {1} rod to {2} rod".format(n,Starting,Targeted))
-    Tower_Of_Hanoi(n-1, Assistant, Targeted, Starting)
+    TowerOfHanoi(n - 1, Assistant, Targeted, Starting)
 
 n=int(input("Enter The number of Disks :"))
 A="Start"
@@ -22,4 +22,4 @@ elif b=="A":
 else:
     print("Wrong Rod Chosen")
     
-Tower_Of_Hanoi(n,A,b,c)
+TowerOfHanoi(n, A, b, c)
