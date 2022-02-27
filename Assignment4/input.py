@@ -20,7 +20,7 @@ def TowerOfHanoi(n: int, Starting: str, Target: str, Assistant: str):
     TowerOfHanoi(n - 1, Assistant, Target, Starting)
 
 
-Disk_num = int(input("Enter The number of Disks :"))
+Disk_num = 3
 
 Entry = "Start"  # Starting Rod
 Exit = input("Enter the Name of Rod where you want them to be, T for Targeted, A for Assistant :")
@@ -208,11 +208,7 @@ print()
 
 print("Student's Name is {0}, and Roll number is {1}.".format(Name_, SID))
 
-<<<<<<< HEAD
 print("Destroyed the record of", S1.name)
-=======
-print("Destroyed the record of", self.name)
->>>>>>> a6d11b5d8d0ef3adb817454ef33f40a303f537e4
 
 print()
 print("_."*30)
@@ -259,8 +255,10 @@ print("Program 6\nFriendship Checker")
 print()
 
 # Taking input for both George's and Barbie's word
-George = input("Enter George's Word :".strip())
-Barbie = input("Enter Barbie's Word :".strip())
+George = input("Enter George's Word :")
+Barbie = input("Enter Barbie's Word :")
+George=George.strip().lower()
+Barbie=Barbie.strip().lower()
 
 # Making a list of all alphabets in both words and sorting them.
 G = list(George)
@@ -269,6 +267,7 @@ print()
 
 G.sort()
 B.sort()
+
 if G==[] or B==[]:
     print("Word Given is invalid")
     exit()
