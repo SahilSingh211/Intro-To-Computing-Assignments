@@ -146,6 +146,7 @@ Created Record for Sahil singh
 
 Student's Name is Sahil singh, and Roll number is 21104050.
 
+Destroyed the record of Sahil singh
 _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 
 Program 5
