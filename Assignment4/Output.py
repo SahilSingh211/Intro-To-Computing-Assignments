@@ -1,7 +1,7 @@
 Python 3.10.1 (tags/v3.10.1:2cd268a, Dec  6 2021, 19:10:37) [MSC v.1929 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
 
-===== RESTART: D:\Assignments\New Folder\AS-4\input.py =====
+===== RESTART: D:\Assignments\Python\Assignment4\input.py =====
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Assignment 4 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -146,6 +146,7 @@ Created Record for Sahil singh
 
 Student's Name is Sahil singh, and Roll number is 21104050.
 
+Destroyed the record of Sahil singh
 _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 
 Program 5
@@ -171,4 +172,3 @@ Enter Barbie's Word :Listen
 George and Barbie have False friendship.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ End Of Assignment ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Destroyed the record of Sahil singh

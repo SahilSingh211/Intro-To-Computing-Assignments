@@ -208,7 +208,11 @@ print()
 
 print("Student's Name is {0}, and Roll number is {1}.".format(Name_, SID))
 
+<<<<<<< HEAD
 print("Destroyed the record of", S1.name)
+=======
+print("Destroyed the record of", self.name)
+>>>>>>> a6d11b5d8d0ef3adb817454ef33f40a303f537e4
 
 print()
 print("_."*30)
