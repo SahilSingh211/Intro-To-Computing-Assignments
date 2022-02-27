@@ -208,6 +208,8 @@ print()
 
 print("Student's Name is {0}, and Roll number is {1}.".format(Name_, SID))
 
+print("Destroyed the record of", S1.name)
+
 print()
 print("_."*30)
 print()
@@ -259,12 +261,15 @@ Barbie = input("Enter Barbie's Word :".strip())
 # Making a list of all alphabets in both words and sorting them.
 G = list(George)
 B = list(Barbie)
+print()
 
 G.sort()
 B.sort()
-
-print()
-print(f"George and Barbie have {G==B} friendship.")
+if G==[] or B==[]:
+    print("Word Given is invalid")
+    exit()
+else:
+    print(f"George and Barbie have {G==B} friendship.")
 print()
 
 print("~"*30,"End Of Assignment","~"*30)
