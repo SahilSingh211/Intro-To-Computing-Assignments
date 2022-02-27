@@ -208,6 +208,8 @@ print()
 
 print("Student's Name is {0}, and Roll number is {1}.".format(Name_, SID))
 
+print("Destroyed the record of", self.name)
+
 print()
 print("_."*30)
 print()
