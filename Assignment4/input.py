@@ -153,7 +153,7 @@ for j in [4, 5, 6]:
     List1.append(j)
 
 List1.sort()
-List_of_num = filter((5).__le__,List1)
+List_of_num = filter(lambda x : x>4,List1)
 
 Set_of_num = set(List_of_num ) 
 print("Part(c)\nSet of numbers greater than 4 is :", Set_of_num)
