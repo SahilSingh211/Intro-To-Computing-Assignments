@@ -7,7 +7,7 @@ Type "help", "copyright", "credits" or "license()" for more information.
 Program 1
 Tower of Hanoi
 
-Enter the Name of Rod where you want them to be, T for Targeted, A for Assistant :T
+Enter the Name of Rod where you want them to be, T for Targeted, A for Assistant :t
 
 Move disk 1 from Start rod to Target rod
 Move disk 2 from Start rod to Assistant rod
@@ -24,56 +24,54 @@ _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 Program 2
 Pascal's Triangle
 
-Enter the number of rows you want :8
+Enter the number of rows you want :7
 
 The Pascal's Triangle by Recursive method is as follows :
 
-                                1      
-                            1      1      
-                        1      2      1      
-                    1      3      3      1      
-                1      4      6      4      1      
-            1      5      10     10     5      1      
-        1      6      15     20     15     6      1      
-    1      7      21     35     35     21     7      1      
+                            1      
+                        1      1      
+                    1      2      1      
+                1      3      3      1      
+            1      4      6      4      1      
+        1      5      10     10     5      1      
+    1      6      15     20     15     6      1      
 
 The Pascal's Triangle made in Iterative Format is :
 
-                                      1 
-                                  1      1 
-                              1      2      1 
-                          1      3      3      1 
-                      1      4      6      4      1 
-                  1      5     10     10      5      1 
-              1      6     15     20     15      6      1 
-          1      7     21     35     35     21      7      1 
+                                  1 
+                              1      1 
+                          1      2      1 
+                      1      3      3      1 
+                  1      4      6      4      1 
+              1      5     10     10      5      1 
+          1      6     15     20     15      6      1 
 
 _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 
 Program 3
 Built-in Functions
 
-Enter first number :56
-Enter Second number :4
+Enter first number :63
+Enter Second number :2
 
-The quotient and Remainder are as follows : (14, 0)
+The quotient and Remainder are as follows : (31, 1)
 Part(a)
 The statement that the function is Callable is True
 The statement that the function with values is Callable is False
 
 Part(b)
-The statement that all values are non-Zero is : False
+The statement that all values are non-Zero is : True
 
 Part(c)
-Set of numbers greater than 4 is : {5, 6, 14}
+Set of numbers greater than 4 is : [5, 6, 31]
 Part(d)
-The immutable set is : frozenset({5, 6, 14})
+The immutable set is : frozenset({1, 4, 5, 6, 31})
 
 Part(e)
-Maximum Value in the set is : 14
+Maximum Value in the set is : 31
 
 Part(f)
-Hash of max value is : 14
+Hash of max value is : 31
 
 _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 

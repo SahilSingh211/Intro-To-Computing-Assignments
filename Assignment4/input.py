@@ -136,7 +136,6 @@ List2 = []
 print("The quotient and Remainder are as follows :", Quotient_Remainder)
 
 List1 = list(Quotient_Remainder)
-List3 = list(Quotient_Remainder)
 # part a.
 print("Part(a)\nThe statement that the function is Callable is", callable(divmod))
 print("The statement that the function with values is Callable is", callable(divmod(num1, num2)))
@@ -145,7 +144,7 @@ print()
 # Part B, Counting zeroes in L.
 print("Part(b)")
 
-print("The statement that all values are non-Zero is :", all(List1))
+print("The statement that all values are non-Zero is :", all(List1+[num1,num2]))
 print()
 
 # part c, Printing numbers greater than 4.
@@ -153,11 +152,12 @@ for j in [4, 5, 6]:
     List1.append(j)
 
 List1.sort()
-List_of_num = filter(lambda x : x>4,List1)
+List_num = filter(lambda x : x>4,List1)
 
-Set_of_num = set(List_of_num ) 
-print("Part(c)\nSet of numbers greater than 4 is :", Set_of_num)
+List_of_num = list(List_num) 
+print("Part(c)\nSet of numbers greater than 4 is :", List_of_num)
 
+Set_of_num=set(List1)
 Froze_Set = frozenset(Set_of_num)
 
 # part d.
