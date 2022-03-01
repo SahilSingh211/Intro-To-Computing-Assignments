@@ -53,28 +53,27 @@ _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 Program 3
 Built-in Functions
 
-Enter first number :43
-Enter Second number :2
+Enter first number :56
+Enter Second number :4
 
-The quotient and Remainder are as follows : (21, 1)
+The quotient and Remainder are as follows : (14, 0)
 Part(a)
 The statement that the function is Callable is True
 The statement that the function with values is Callable is False
 
 Part(b)
-There are no zeroes in List
+The statement that all values are non-Zero is : False
 
 Part(c)
-Numbers greater than 4 are : {21, 5, 6}
-
+Set of numbers greater than 4 is : {5, 6, 14}
 Part(d)
-The immutable set is : frozenset({21, 5, 6})
+The immutable set is : frozenset({5, 6, 14})
 
 Part(e)
-Maximum Value in the set is : 21
+Maximum Value in the set is : 14
 
 Part(f)
-Hash of max value is : 21
+Hash of max value is : 14
 
 _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 
@@ -108,8 +107,8 @@ _._._._._._._._._._._._._._._._._._._._._._._._._._._._._._.
 Program 6
 Friendship Checker
 
-Enter George's Word :Listen
-Enter Barbie's Word :Silent
+Enter George's Word :Silent
+Enter Barbie's Word :Listen
 
 George and Barbie have True friendship.
 

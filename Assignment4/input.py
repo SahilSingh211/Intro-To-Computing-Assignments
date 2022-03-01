@@ -144,25 +144,19 @@ print()
 
 # Part B, Counting zeroes in L.
 print("Part(b)")
-if 0 in List1:
-    print("There are zeroes in List")
-else:
-    print("There are no zeroes in List")
+
+print("The statement that all values are non-Zero is :", all(List1))
 print()
 
 # part c, Printing numbers greater than 4.
 for j in [4, 5, 6]:
     List1.append(j)
-for k in range(len(List1)):
-    if List1[k] > 4:
-        List2.append(List1[k])
 
-List2.sort()
-Set_of_num = set(List2)
-print("Part(c)\nNumbers greater than 4 are :", Set_of_num)
-print()
+List1.sort()
+List_of_num = filter((5).__le__,List1)
 
-
+Set_of_num = set(List_of_num ) 
+print("Part(c)\nSet of numbers greater than 4 is :", Set_of_num)
 
 Froze_Set = frozenset(Set_of_num)
 
